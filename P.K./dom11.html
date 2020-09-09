@@ -1,0 +1,34 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Changing the Image</h1>
+        <img id="theImage" src="pp5.jpg" width=800px height=450px>
+        <p><input type="button" id="theButton" value="click me!"/>
+        </p>
+
+    <script>
+
+      var c=0;
+        theButton.onclick = function pictureChange()
+        {
+          c++;
+          if(c>5)c=1;
+
+          var a=[];
+        //  a[0]="pp1.jpg";
+          a[1]="pp2.jpg";
+          a[2]="pp1.jpg";
+          a[3]="pp4.jpg";
+          a[4]="pp5.jpg";
+          a[5]="pp1.jpg";
+        //  a[5]="pp6.jpg";
+          //var rand = Math.floor(Math.random() * 5)+1;
+          console.log(c);
+
+        document.getElementById('theImage').src=a[c];
+        }
+    </script>
+    </body>
+</html>

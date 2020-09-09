@@ -1,0 +1,39 @@
+#jum1{
+
+  background-image: url(me.jpg);
+  background-position:left bottom;
+
+
+}
+#jum2{
+  background-color: lightblue;
+}
+.hello{
+  color: white;
+
+}
+.display-3{
+  color:lightgray;
+  /* font-style: italic; */
+  font-style: oblique;
+}
+.col-md-4{
+  column-gap: 20px;
+  background-color: lightgray;
+
+}
+.aboltabol{
+  width: 1280px;
+
+
+
+
+}
+.center{
+  text-align: center;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}

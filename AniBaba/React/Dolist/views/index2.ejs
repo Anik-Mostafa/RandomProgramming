@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+ <form action="/" method="POST">
+   <% for (var i =0; i <data.length;  i++ ) { %>
+     <h1><%=data[i]%></h1>
+
+     <% } %>
+ <label for="cmt">comment:</label>
+ <input type="text" id="cmt" name="cmt"><br><br>
+ <input type="submit" value="Submit">
+
+
+
+</form>
+  </body>
+</html>

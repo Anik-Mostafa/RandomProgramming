@@ -1,0 +1,23 @@
+Void sortAdd(Node* &head, int v){
+p=1;
+Node *c = head;
+while(c!=null)
+{
+	
+   int val1 = c->value;
+   int val2 = c->next;
+   
+   
+   if(val1<v && val2>v)
+   {
+      insertNodeAt(head, p, v);
+   }
+   p++;
+   c=c->next;
+
+
+}
+
+	
+   
+   

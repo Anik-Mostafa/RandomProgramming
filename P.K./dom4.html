@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Set the background color of a paragraph</title>
+</head>
+<body>
+<input id="lol" type="button" value="Click to set paragraph background color" >
+<p>w3resource JavaScript Exercises</p>
+<p>w3resource PHP Exercises</p>
+
+<script>
+
+  lol.onclick = function(){
+    var y= document.querySelector("body");
+    var x= y.querySelectorAll("p");
+    x[0].style.background = "blue";
+    x[1].style.background = "red";
+  }
+
+</script>
+</body>
+</html>

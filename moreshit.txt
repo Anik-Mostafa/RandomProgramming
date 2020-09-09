@@ -1,0 +1,19 @@
+1. Write a program that stores 5 peoples name you know from oldest to youngest and print the 3rd youngest persons name.
+
+2. Show the use case of:-
+
+.push()
+.pop()
+.shift()
+.unshift()
+
+3. Create an object that says your says about your fistName, lastName, age, birthDate,
+school, Collage.
+
+4. Create a javascript object that prints all forms of data type in javaScript:-
+
+5. Show the use case of the object element printing methods:-
+
+		i.   anik.firstName
+		ii.  anik['lastName']
+		

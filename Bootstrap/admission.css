@@ -1,0 +1,112 @@
+/* .jumbotron{
+  background-image: url(/Users/mostafamohsin/Desktop/Programming/Bootstrap/book0.jpg);
+  background-size: cover;
+  color: lightgreen;
+}
+.n1{
+  background-color: lightgreen;
+} */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+#i1{
+  background-image: url(book0.jpg);
+  background-size: cover;
+}
+.jumbotron{
+  color:black;
+  background-color: orange;
+  background-size:90px;
+
+  text-align: center;
+  margin-bottom: 0px;
+  animation: fadeIn 5s;
+
+}
+
+
+#fixed{
+  background: url(book0.jpg) no-repeat center center fixed;
+
+  display: table;
+  min-height: 100px;
+  height: 600px;
+  color: white;
+  /* text-align: center; */
+  position: relative;
+  width:100%;
+  background-size: cover;
+}
+#dp1{
+  animation: fadeIn 5s;
+}
+#pp11{
+  background-image: url(labib.jpg);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  border-radius: 50%;
+
+}
+#pp22{
+  background-image: url(hasib.jpg);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  padding:50px;
+  border-radius: 50%;
+
+
+
+}
+#pp33{
+  background-image: url(asif.jpg);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+
+}
+#p4{
+  background-image: url(p2.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+
+  border-radius: 1%;
+}
+#p5{
+  background-image: url(p3.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+
+  border-radius: 1%;
+}
+
+#p6{
+  background-image: url(p1.jpg);
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+
+  border-radius: 1%;
+}
+title{
+  text-decoration-style: ;
+  vertical-align: 30px;
+}
